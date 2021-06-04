@@ -1,5 +1,6 @@
 
 def LCS(a,b,m,n):
+    print("Hello")
     if m==0 or n==0:
         return 0
     table = [[None]*(n+1) for i in range(m+1)]
